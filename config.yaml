@@ -1,0 +1,93 @@
+# 微信机器人配置文件
+wechat:
+  # 微信登录方式 (itchat)
+  login_type: "itchat"
+
+  # 热登录，保持登录状态
+  hot_reload: true
+
+  # 二维码显示方式 (terminal/file)
+  qr_code_display: "terminal"
+
+  # 登录重试配置
+  max_login_retries: 3
+
+  # 登录超时时间(秒)
+  login_timeout: 60
+
+  # 登录间隔时间(秒) - 避免频繁登录
+  login_interval: 5
+
+# 数据源配置
+data_source:
+  # Excel文件路径
+  excel_file: "data/media_database.xlsx"
+  
+  # 数据列映射
+  columns:
+    media_type: 0      # 媒体类型
+    drama_name: 1      # 剧名
+    episodes: 2        # 集数
+    actors: 3          # 演员名称
+    quark_link: 4      # 夸克网盘链接
+    baidu_link: 5      # 百度网盘链接
+
+# 搜索配置
+search:
+  # 模糊搜索相似度阈值 (0-100)
+  similarity_threshold: 60
+  
+  # 最大返回结果数
+  max_results: 10
+  
+  # 单次发送最大条数
+  max_items_per_message: 3
+
+# 安全策略配置
+security:
+  # 群人数检测
+  group_member_check:
+    enabled: true
+    # 群人数超过此值时启用延迟发送
+    threshold: 20
+    
+  # 发送频率控制
+  rate_limit:
+    enabled: true
+    # 每分钟最大发送次数
+    max_per_minute: 10
+    # 每小时最大发送次数
+    max_per_hour: 50
+    
+  # 延迟发送配置
+  delay_send:
+    enabled: true
+    # 基础延迟时间(秒)
+    base_delay: 2
+    # 随机延迟范围(秒)
+    random_delay: 3
+    # 群人数多时额外延迟(秒)
+    group_extra_delay: 5
+
+# 消息格式配置
+message_format:
+  # 单条剧集信息模板
+  single_template: |
+    🎬《{drama_name}》
+    主演：{actors}
+    集数：{episodes}集
+    夸克：{quark_link}
+    百度：{baidu_link}
+  
+  # 多条结果分隔符
+  separator: "\n\n"
+  
+  # 结果过多时的提示
+  too_many_results: "找到 {count} 个相关结果，为避免刷屏，仅显示前 {shown} 个："
+
+# 日志配置
+logging:
+  level: "INFO"
+  file: "logs/wechat_bot.log"
+  max_size: "10MB"
+  backup_count: 5
