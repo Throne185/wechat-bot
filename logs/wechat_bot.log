@@ -1,0 +1,57 @@
+2025-07-30 21:31:55,042 - __main__ - INFO - 微信机器人初始化完成
+2025-07-30 21:31:55,043 - __main__ - INFO - 正在启动微信机器人...
+2025-07-30 21:31:55,326 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-30 21:31:55,329 - jieba - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-30 21:31:56,798 - jieba - DEBUG - Loading model cost 1.470 seconds.
+2025-07-30 21:31:57,549 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-07-30 21:31:57,559 - utils.data_manager - INFO - 成功加载 15 条数据
+2025-07-30 21:31:58,410 - itchat - INFO - Getting uuid of QR code.
+2025-07-30 21:31:59,438 - itchat - INFO - Downloading QR code.
+2025-07-30 21:31:59,507 - itchat - INFO - Please scan the QR code to log in.
+2025-07-30 21:36:12,093 - __main__ - INFO - 微信机器人初始化完成
+2025-07-30 21:36:12,093 - __main__ - INFO - 正在启动微信机器人...
+2025-07-30 21:36:12,322 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-30 21:36:12,325 - jieba - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-30 21:36:13,355 - jieba - DEBUG - Loading model cost 1.032 seconds.
+2025-07-30 21:36:14,319 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-07-30 21:36:14,339 - utils.data_manager - INFO - 成功加载 15 条数据
+2025-07-30 21:36:15,779 - itchat - INFO - Getting uuid of QR code.
+2025-07-30 21:36:16,339 - itchat - INFO - Downloading QR code.
+2025-07-30 21:36:16,438 - itchat - INFO - Please scan the QR code to log in.
+2025-07-30 21:37:03,896 - itchat - INFO - Log in time out, reloading QR code.
+2025-07-30 21:37:03,897 - itchat - INFO - Getting uuid of QR code.
+2025-07-30 21:37:04,091 - itchat - INFO - Downloading QR code.
+2025-07-30 21:37:04,180 - itchat - INFO - Please scan the QR code to log in.
+2025-07-30 21:42:08,823 - itchat - INFO - Log in time out, reloading QR code.
+2025-07-30 21:42:08,843 - itchat - INFO - Getting uuid of QR code.
+2025-07-30 21:42:09,078 - itchat - INFO - Downloading QR code.
+2025-07-30 21:42:09,736 - itchat - INFO - Please scan the QR code to log in.
+2025-07-30 21:46:08,462 - __main__ - ERROR - 微信登录失败: HTTPSConnectionPool(host='login.weixin.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YcHJkbowUw==&tip=1&r=-1110755&_=1753883058 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-07-30 21:46:08,465 - __main__ - ERROR - 微信登录失败
+2025-07-31 22:57:04,867 - __main__ - INFO - 微信机器人初始化完成
+2025-07-31 22:57:04,867 - __main__ - INFO - 正在启动微信机器人...
+2025-07-31 22:57:05,991 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-31 22:57:05,995 - jieba - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-31 22:57:07,060 - jieba - DEBUG - Loading model cost 1.067 seconds.
+2025-07-31 22:57:07,061 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-07-31 22:57:09,293 - utils.data_manager - INFO - 成功加载 10277 条数据
+2025-07-31 22:57:09,602 - itchat - INFO - Getting uuid of QR code.
+2025-07-31 22:57:09,803 - itchat - INFO - Downloading QR code.
+2025-07-31 22:57:09,910 - itchat - INFO - Please scan the QR code to log in.
+2025-07-31 22:58:32,996 - __main__ - INFO - 微信机器人初始化完成
+2025-07-31 22:58:32,996 - __main__ - INFO - 正在启动微信机器人...
+2025-07-31 22:58:34,082 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-31 22:58:34,084 - jieba - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-31 22:58:35,189 - jieba - DEBUG - Loading model cost 1.106 seconds.
+2025-07-31 22:58:35,189 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-07-31 22:58:37,351 - utils.data_manager - INFO - 成功加载 10277 条数据
+2025-07-31 22:58:37,660 - itchat - INFO - Getting uuid of QR code.
+2025-07-31 22:58:37,888 - itchat - INFO - Downloading QR code.
+2025-07-31 22:58:37,958 - itchat - INFO - Please scan the QR code to log in.
+2025-07-31 22:58:41,903 - itchat - INFO - Please press confirm on your phone.
+2025-07-31 22:58:54,862 - itchat - INFO - Log in time out, reloading QR code.
+2025-07-31 22:58:54,871 - itchat - INFO - Getting uuid of QR code.
+2025-07-31 22:58:54,998 - itchat - INFO - Downloading QR code.
+2025-07-31 22:58:55,096 - itchat - INFO - Please scan the QR code to log in.
+2025-07-31 23:01:05,253 - __main__ - ERROR - 微信登录失败: ('Connection aborted.', BadStatusLine('HTTP/1.1 0 -\r\n'))
+2025-07-31 23:01:05,253 - __main__ - ERROR - 微信登录失败
